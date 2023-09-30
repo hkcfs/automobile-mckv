@@ -9990,15 +9990,11 @@ p.lead {
 }
 
 p.lead.big{
-  font-size: 16px !important;
+  font-size: 32px;
 }
 
 .dark-scheme p.lead {
   color: rgba(255, 255, 255, .75);
-}
-
-p.lead.big {
-  font-size: 18px;
 }
 
 p.sub {
@@ -17667,6 +17663,9 @@ img {
   #quick_search {
     position: absolute;
     top: 30px;
+  }
+  p.lead.big {
+    font-size: 18px;
   }
 }
 
